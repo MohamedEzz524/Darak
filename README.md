@@ -1,4 +1,4 @@
-# Olivia Harper Homes — Next.js
+# Darak Homes — Next.js
 
 The static site (`../site`) converted to a Next.js 14 App-Router app. Every page reuses
 the **homepage's** nav, mobile menu, and footer.

@@ -5,7 +5,7 @@ import SiteScripts from "@/components/SiteScripts";
 import PageTransition from "@/components/PageTransition";
 import { readJSON } from "@/lib/content";
 
-export const metadata = { title: "Olivia Harper Homes" };
+export const metadata = { title: "Darak Homes" };
 
 /* Left -> right feathered gradient page transition. Each layer clips an over-wide
    band so the soft edge sweeps horizontally without adding page scroll. Defaults
