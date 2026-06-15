@@ -1,4 +1,21 @@
 <!-- ============================================================
+     PRELOADER — brand text reveal; a video splits the two words apart
+     and expands to fill the hero, then hands off to the slider.
+     (Markup reconstructed after the migration dropped it; the driving
+     script lives in the global _scripts.json.)
+     ============================================================ -->
+<div class="oh-preloader" id="ohPreloader">
+  <div class="oh-preloader__text-container">
+    <div class="oh-preloader__text" id="ohPreloaderText">DARAK HOMES</div>
+  </div>
+  <div class="oh-preloader__reveal-media" id="ohRevealMedia">
+    <video muted loop playsinline preload="auto" poster="/wp-content/uploads/2026/02/112-West-Palm-Ave_1oakstudios_2.jpg">
+      <source src="/wp-content/uploads/2026/02/Home-2-1.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<!-- ============================================================
      DARAK HOMES — BLEND-MODE OVERLAY NAVBAR
      Fixed, transparent, mix-blend-mode:difference so the content
      auto-inverts against whatever scrolls behind it. Collapses to a
